@@ -1,5 +1,7 @@
 volumes
 .venv
+.env
+.env.*
 
 # Logs
 logs
