@@ -1,0 +1,28 @@
+{
+  "24450001": {
+    "question": "question1_1",
+    "synonyms": [
+      { "id": "24450002", "value": "question1_2" },
+      { "id": "24450003", "value": "question1_3" }
+    ],
+    "answers": [
+      { "id": "24450004", "value": "answer1_1" },
+      { "id": "24450005", "value": "answer1_2" },
+      { "id": "24450006", "value": "answer1_3" }
+    ],
+    "disabled": "false"
+  },
+  "24450007": {
+    "question": "question2_1",
+    "synonyms": [
+      { "id": "24450008", "value": "question2_2" },
+      { "id": "24450009", "value": "question2_3" }
+    ],
+    "answers": [
+      { "id": "24450010", "value": "answer2_1" },
+      { "id": "24450011", "value": "answer2_2" },
+      { "id": "24450012", "value": "answer2_3" }
+    ],
+    "disabled": "false"
+  }
+}

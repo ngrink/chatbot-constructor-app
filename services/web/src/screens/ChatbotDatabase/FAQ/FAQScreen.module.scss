@@ -1,0 +1,107 @@
+.screen {
+    padding: 40px 48px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnAdd {
+    margin-left: 24px !important;
+}
+
+// --------------------------------------------------------
+//  Faqs
+// --------------------------------------------------------
+.faqs {
+    margin-top: 40px;
+}
+
+.faqsList {
+    display: flex;
+    flex-direction: column;
+}
+
+.faqsItem {
+    margin-bottom: 8px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0px 2px 0px 0px rgba(51, 51, 51, 0.1);
+
+        .faqsDeleteIcon {
+            visibility: visible;
+        }
+    }
+}
+
+.faqsQuestion,
+.faqsAnswer {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.faqsQuestion {
+    width: 100%;
+    max-width: 300px;
+}
+
+.faqsQuestionCount,
+.faqsAnswerCount {
+    margin-left: 6px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    background-color: #efefef;
+    opacity: 0.85;
+}
+
+.faqsQuestionTitle {
+    font-weight: 600;
+}
+
+.faqsAnswerTitle {
+    font-weight: 500;
+}
+
+.faqsDeleteIcon {
+    visibility: hidden;
+    margin-left: auto;
+    margin-right: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    &:hover {
+        background-color: #efefef;
+    }
+
+    svg {
+        width: 100%;
+        height: 100%;
+        color: #bbb;
+    }
+}

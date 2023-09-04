@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+      "baseUrl": "./app",
+      "paths": {
+        "#root/*": ["./src/*"],
+        "#modules/*": ["./src/modules/*/"],
+        "#utils/lib/*":[ "./src/utils/lib/*/"],
+        "#utils/modules/*": ["./src/utils/modules/*/"],
+        "#accounts": ["./src/modules/accounts/"],
+        "#auth": ["./src/modules/auth/"],
+        "#projects": ["./src/modules/projects/"],
+        "#configs": ["./src/modules/configs/"],
+        "#channels": ["./src/modules/channels/"],
+        "#dialogs": ["./src/modules/dialogs/"],
+        "#users": ["./src/modules/users/"],
+        "#statistics": ["./src/modules/statistics/"],
+        "#integrations": ["./src/modules/integrations/"],
+        "#settings": ["./src/modules/settings/"],
+        "#core": ["./src/modules/core/"]
+      }
+  }
+}

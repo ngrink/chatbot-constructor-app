@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "name": "Docker: Attach to Node",
+      "type": "node",
+      "request": "attach",
+      "port": 57000,
+      "address": "localhost",
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "/"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+/srv/www/gigabot/
+==============================================
+  scripts/
+    rsync.sh
+    rsync-update.sh
+    ...
+==============================================
+  services/
+  - web/
+      app/
+        src/
+        node_modules/
+        .dockerfile
+        .dockerignore
+        .env.development
+        .env.stage
+        .env.production
+        package.json
+        tsconfig.json
+	...
+      scripts/
+      ...
+  - server/
+      app/
+	src/
+	node_modules/
+	...
+      scripts/
+      ...
+  - core/
+      app/
+	src/
+	node_modules/
+	...
+      scripts/
+      ...
+  - nlu/
+  - website/
+  - docs/
+  - news/
+===============================================
+  volumes/
+  - server/
+      data/
+	storage/
+	  appdata/
+	  userdata/
+      etc/
+      logs/
+  - core/
+      data/
+      etc/
+      logs/
+  ...
+===============================================
+  docker-compose.yaml

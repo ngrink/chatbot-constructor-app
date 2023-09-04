@@ -1,0 +1,80 @@
+.exports {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+  button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent;
+    opacity: .65;
+  }
+
+  button:hover {
+    opacity: 1;
+  }
+
+  button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.users {
+  width: 100%;
+  padding: 24px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+}
+
+.users__header {
+  display: flex;
+  gap: 24px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #002d60;
+  color: #fff;
+
+  *:nth-child(1) {
+    width: 175px;
+  }
+  *:nth-child(2) {
+    margin-right: auto;
+  }
+  *:nth-child(3) {
+    width: 175px;
+  }
+  *:nth-child(4) {
+    width: 175px;
+  }
+}
+
+.user {
+  display: flex;
+  gap: 24px;
+  padding: 12px 24px;
+
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+
+  *:nth-child(1) {
+    width: 175px;
+  }
+  *:nth-child(2) {
+    margin-right: auto;
+    color: blue;
+  }
+  *:nth-child(3) {
+    color: grey;
+    width: 175px;
+  }
+  *:nth-child(4) {
+    color: grey;
+    width: 175px;
+  }
+}

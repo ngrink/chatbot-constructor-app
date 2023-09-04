@@ -1,0 +1,56 @@
+.search {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    padding: 0px 10px;
+
+    border: 1px solid #eee;
+    border-radius: 5px;
+    color: #bbb;
+}
+
+.searchIcon {
+    font-size: 14px;
+}
+
+.searchField {
+    width: 100%;
+    height: 100%;
+    padding: 0 8px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+
+.searchField::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #bbb;
+}
+
+.searchField:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #bbb;
+   opacity:  1;
+}
+
+.searchField::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #bbb;
+   opacity:  1;
+}
+
+.searchField:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #bbb;
+}
+
+.searchField::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #bbb;
+}
+
+.searchField::placeholder { /* Most modern browsers support this now. */
+   color:    #bbb;
+}
+
+// input:-internal-autofill-selected {
+//     appearance: menulist-button;
+//     background-image: none !important;
+//     background-color: -internal-light-dark(rgb(232, 240, 254), rgba(70, 90, 126, 0.4)) !important;
+//     color: -internal-light-dark(black, white) !important;
+// }

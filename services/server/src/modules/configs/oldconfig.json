@@ -1,0 +1,26 @@
+{
+  "data": {
+      "faq": {
+          "question1": {
+              "type": "question",
+              "answers": [
+                  {"id": "1", "value": "answer1.1"},
+                  {"id": "2", "value": "answer1.2"},
+                  {"id": "3", "value": "answer1.3"}
+              ]
+          },
+          "question2": {
+              "type": "question",
+              "answers": [
+                  {"id": "1", "value": "answer2.1"},
+                  {"id": "2", "value": "answer2.2"},
+                  {"id": "3", "value": "answer2.3"}
+              ]
+          },
+          "question3": {
+              "type": "synonym",
+              "for": "question1"
+          }
+      }
+  }
+}

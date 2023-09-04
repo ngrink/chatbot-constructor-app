@@ -1,0 +1,23 @@
+{
+    "config": {
+        "flows": {},
+        "database": {
+            "nlu": {
+                "entities": {},
+                "intents": {},
+                "training": {}
+            },
+            "faq": {},
+            "variables": {},
+            "labels": {},
+            "segments": {}
+        },
+        "newsletters": {}
+    },
+    "channels": {},
+    "users": {},
+    "dialogs": {},
+    "statistics": {},
+    "integrations": {},
+    "settings": {}
+}

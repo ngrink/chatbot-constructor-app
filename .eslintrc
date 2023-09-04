@@ -1,0 +1,31 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "plugins": [],
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "linebreak-style": ["off", "unix"],
+    "no-unused-vars": 0,
+    "space-after-function-name": "never",
+    "space-before-function-paren": ["error", {
+      "anonymous": "never",
+      "named": "never",
+      "asyncArrow": "always"
+  }]
+  }
+}

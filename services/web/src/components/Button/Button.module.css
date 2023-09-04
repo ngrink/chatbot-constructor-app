@@ -1,0 +1,24 @@
+.btn {
+    padding: 14px 32px;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.main {
+    background: #00499E;
+    color: #fff;
+}
+
+.ghost {
+    border: 1px solid #ccc;
+    color: #333;
+    background: transparent;
+}
+
+.fluid {
+    width: 100%;
+}

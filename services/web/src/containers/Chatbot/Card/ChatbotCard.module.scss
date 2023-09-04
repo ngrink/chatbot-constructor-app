@@ -1,0 +1,168 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 32px;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0px 2px 2px 0px rgba(51, 51, 51, 0.1);
+    }
+}
+
+.header {
+    margin-bottom: auto;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.name {
+    max-width: 80%;
+    margin-bottom: 12px;
+
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.btnContextmenu {
+  display: none;
+  width: 25px;
+  height: 25px;
+
+  font-size: 20px;
+  color: #aaa;
+  background: none;
+  border: none;
+  border-radius: 4px;
+
+  transition: all .15s ease;
+  cursor: pointer;
+}
+
+.btnContextmenu:hover {
+  color: #777;
+  background: #eee;
+}
+
+.tags {
+    display: flex;
+    margin-bottom: 40px;
+
+    li {
+        padding: 6px 12px;
+        margin-right: 12px;
+
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #dedede;
+        color: #777;
+    }
+
+    li:last-child {
+        margin-right: 0;
+    }
+}
+
+
+
+.channels {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.channelItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &.active {
+
+    }
+
+    &.error {
+
+    }
+
+    &.disabled {
+
+    }
+
+    &.notconnected {
+        opacity: 0.5;
+    }
+}
+
+.channelImage {}
+
+.channelStatus {
+    position: absolute;
+    left: -4px;
+    bottom: -4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+
+    &.active {
+        background-color: #46DC00;
+    }
+
+    &.error {
+        background-color: #ff7c00;
+    }
+
+    &.disabled {
+        background-color: #bbb;
+    }
+
+    &.notconnected {
+      display: none;
+  }
+}
+
+
+.statistics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.statisticsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-right: 24px;
+    &:last-child {
+        margin-right: 0;
+    }
+
+    color: #333;
+}
+
+.statisticsData {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.statisticsTitle {
+    font-size: 14px;
+}
