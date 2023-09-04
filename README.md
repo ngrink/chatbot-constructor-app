@@ -5,7 +5,7 @@
 
 ## Demo
 <!-- [TODO] Vercel, Netlify, Heroku -->
-![chatbot-constructor-app-preview]()
+[![chatbot-constructor-app-preview](http://img.youtube.com/vi/Y5vaEqD_rUw/maxresdefault.jpg)](http://www.youtube.com/watch?v=Y5vaEqD_rUw)
 
 ## Features
 - Registration, authorization
