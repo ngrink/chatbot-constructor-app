@@ -2,6 +2,7 @@ volumes
 .venv
 .env
 .env.*
+build
 
 # Logs
 logs
