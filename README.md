@@ -4,7 +4,8 @@
 > Related services: Aimylogic, Robochat, Manychat, Chatbot, PuzzleBot, FlowAI, Fasttrack
 
 ## Demo
-<!-- [TODO] Vercel, Netlify, Heroku -->
+[Link to demo](https://chatbot-constructor-app.ngrink.ru/)
+
 [![chatbot-constructor-app-preview](http://img.youtube.com/vi/Y5vaEqD_rUw/maxresdefault.jpg)](http://www.youtube.com/watch?v=Y5vaEqD_rUw)
 
 ## Features
