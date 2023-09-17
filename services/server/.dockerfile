@@ -15,4 +15,4 @@ COPY src ./src
 COPY .env.* ./
 
 EXPOSE 7000
-CMD ["npm", "run", "debug"]
+CMD ["npm", "run", "prod"];
